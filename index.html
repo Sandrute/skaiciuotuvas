@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Skaičelkė</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<table class="container">
+    <tr>
+        <td colspan="4" class="resultField">
+            <div id="result"></div>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="1"><input type="submit" class="numbers" id="7" value="7" onclick="handleClick('7')"></td>
+        <td colspan="1"><input type="submit" class="numbers" id="8" value="8" onclick="handleClick('8')"></td>
+        <td colspan="1"><input type="submit" class="numbers" id="9" value="9" onclick="handleClick('9')"></td>
+        <td colspan="1"><input type="submit" class="action" id="dalinti" value="&#247" onclick="handleClick('dalinti')">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="1"><input type="submit" class="numbers" id="4" value="4" onclick="handleClick('4')"></td>
+        <td colspan="1"><input type="submit" class="numbers" id="5" value="5" onclick="handleClick('5')"></td>
+        <td colspan="1"><input type="submit" class="numbers" id="6" value="6" onclick="handleClick('6')"></td>
+        <td colspan="1"><input type="submit" class="action" id="dauginti" value="&#10005"
+                               onclick="handleClick('dauginti')"></td>
+    </tr>
+    <tr>
+        <td colspan="1"><input type="submit" class="numbers" id="1" value="1" onclick="handleClick('1')"></td>
+        <td colspan="1"><input type="submit" class="numbers" id="2" value="2" onclick="handleClick('2')"></td>
+        <td colspan="1"><input type="submit" class="numbers" id="3" value="3" onclick="handleClick('3')"></td>
+        <td colspan="1"><input type="submit" class="action" id="atimti" value="-" onclick="handleClick('atimti')">
+        </td>
+    </tr>
+    <tr>
+        <td colspan=" 2"><input type="submit" class="numbers" id="0" value="0" onclick="handleClick('0')"></td>
+        <td colspan=" 1"><input type="submit" class="numbers" id="dot" value="." onclick="handleClick('dot')"></td>
+        <td colspan=" 1" rowspan="2"><input type="submit" class="action" id="sudeti" value="+"
+                                            onclick="handleClick('sudeti')"></td>
+    </tr>
+    <tr>
+        <td colspan=" 3"><input type="submit" class="action" id="equals" value="=" onclick="calculate()"></td>
+    </tr>
+</table>
+
+<table class="container" id="secondTable">
+    <tr>
+        <th>A</th>
+        <th>Veiksmas</th>
+        <th>B</th>
+        <th>=</th>
+    </tr>
+</table>
+
+</body>
+<script type="text/javascript" language="JavaScript" src="js.js"></script>
+</html>

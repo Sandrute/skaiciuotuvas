@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #e7e7ed;
+    font-family: "Calibri";
+}
+
+.container {
+    margin: auto;
+    margin-top: 10px;
+    width: 300px;
+    background-color: #e5e5cd;
+    border: 2px dotted black;
+    border-radius: 4px;
+}
+
+.resultField {
+    background-color: black;
+    height: 50px;
+    color: white;
+    text-align: right;
+    font-size: 36px;
+}
+
+.numbers {
+    background-color: white;
+    border: 1px solid black;
+    line-height: 50px;
+    width: 100%;
+}
+
+#sudeti {
+    height: 100%;
+    line-height: 104px;
+    background-color: #4c6ebd;
+    color: white;
+}
+
+.action {
+    background-color: #4c6ebd;
+    border: 1px solid black;
+    line-height: 50px;
+    width: 100%;
+    color: white;
+}
+
+#equals {
+    background-color: #b70000;
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+
+#secondTable {
+    float: right;
+    border: 1px solid black;
+    border-collapse: collapse;
+    top: -334px;
+    position: relative;
+    right: 200px;
+}
+
+#secondTable th {
+    background-color: #94b0e5;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+    text-align: center;
+}
+
+#secondTable td {
+    background-color: rgba(225, 217, 219, 0.61);
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
